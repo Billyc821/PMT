@@ -1,0 +1,168 @@
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(6rem); }
+
+  80% {
+    opacity:.8;
+    transform:translateY(-.3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+.main_container {
+  height: 100vh;
+  width:100vw;
+  background-color: #222222;
+  display: flex;
+}
+
+h1 {
+  margin: auto;
+  animation: moveInBottom 1s ease-in;
+  color: white;
+  font-size:10rem;
+}
+h2 {
+  margin: auto;
+  color: white;
+}
+
+nav {
+  height:50px;
+  text-align: center;
+  padding-top:10px;
+}
+
+.main_container2 {
+  background-color: grey;
+  height:100vh;
+  width:100vw;
+  display: grid;
+  grid-template-columns:25% 25% 17% 17% auto;
+  grid-template-rows: 50% 25% 25%;
+  grid-gap: 1px 1px;
+
+}
+
+.item-a {
+  background-color: #1F1F1F;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+  display: flex;
+
+  cursor: pointer;
+}
+
+
+
+.item-b {
+  background-color: #1F1F1F;
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+  display: flex;
+
+  cursor: pointer;
+}
+
+.image-wrapper {
+  margin: auto;
+  color: white;
+}
+
+.one {
+  position: relative;
+  left:20px;
+}
+
+.three {
+  position: relative;
+  left: 28px;
+}
+
+.laptops {
+  position: relative;
+  left: 39px;
+}
+
+.goods {
+  position: relative;
+  left: 15px;
+}
+
+.lights {
+  position: relative;
+  left:48px;
+}
+
+.tv {
+  position: relative;
+  left:35px;
+}
+
+.four {
+  position: relative;
+  left:10px;
+}
+
+p {
+  font-size: 22px;
+  animation: moveInBottom 1s ease-in;
+
+}
+
+.material-icons {
+  font-size: 146px !important;
+}
+
+.value-wrapper {
+  color: white;
+  position: relative;
+  font-size:56px;
+  top:190px;
+  right:300px;
+}
+
+.value {
+  font-size: 56px;
+}
+
+.item-c {
+  background-color: #1F1F1F;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+
+  display: flex;
+
+  cursor: pointer;
+}
+
+.item-d, .item-e, .item-f, .item-g, .item-h, .item-i {
+  background-color: #1F1F1F;
+  display: flex;
+  cursor: pointer;
+}
